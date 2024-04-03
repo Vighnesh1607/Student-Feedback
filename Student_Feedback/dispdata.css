@@ -1,0 +1,26 @@
+body{
+    background-image: url('../Student_Feedback/Images/ISBMFront.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table{
+    background-color: rgb(26, 193, 231);
+}
+
+input[type="submit"] {
+    margin-left: 45%;
+    position: absolute;
+    width: 10%;
+    padding: 12px;
+    background-color: #cd2712; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cccf3; /* Button background color on hover */
+}

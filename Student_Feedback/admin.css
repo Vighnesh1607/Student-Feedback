@@ -1,0 +1,81 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../Student_Feedback/Images/ISBMFront.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Style for the form */
+form {
+    position: absolute;
+    left: 43%; /* Adjusted left position */
+    top: 30%;
+    max-width: 600px; /* Increased max-width */
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #15dfd9; /* Background color for the form */
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1); /* Box shadow for the form */
+}
+
+/* Style for labels */
+label {
+    display: block;
+    margin-bottom: 3px;
+    color: #db1111; /* Label color */
+}
+
+/* Style for input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: calc(100% - 20px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #2bebe8; /* Border color */
+    border-radius: 5px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #cd2712; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #4cccf3; /* Button background color on hover */
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 0;
+    background-image: linear-gradient(to right, #fe614c, #e02323,  #db262c,#fe614c );
+    color: white;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+h2:hover::after {
+    width: 100%;
+    left: 0;
+}
